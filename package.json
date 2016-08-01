@@ -1,0 +1,30 @@
+{
+  "name": "emitters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "emitter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gemisheresy/Emitters.git"
+  },
+  "author": "gemis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gemisheresy/Emitters/issues"
+  },
+  "homepage": "https://github.com/Gemisheresy/Emitters#readme",
+  "dependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2016": "^6.11.3"
+  }
+}
