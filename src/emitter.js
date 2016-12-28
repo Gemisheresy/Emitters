@@ -12,9 +12,7 @@ const Emitter = function(){
     };
     self._emit = function(type){
         if(events[type]){
-            events[type].forEach(function(listener){
-                listener();
-            })
+            events[type].forEach((listener) => listener())
         }
         else {
             throw `Error: ${type} has no listeners`;
